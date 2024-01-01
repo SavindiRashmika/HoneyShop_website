@@ -273,7 +273,8 @@ span{
 .row img{
     width: 100%;
     height: auto;
-    transition: transfor;
+    transition: transform .50s ease;
+    cursor: pointer;
 }
 
 .row h3{
@@ -311,4 +312,30 @@ span{
     letter-spacing: 1px;
     border-radius: 3rem;
     transition: all .50s ease;
+}
+
+.in-text .s-btnn a:hover{
+    background: var(--main-color);
+    color: var(--bg-color);
+    box-shadow: #ff9f0d 0 1px 25px;
+}
+
+.top-icon{
+    position: absolute;
+    top: 30px;
+    left: 35px;
+}
+
+.top-icon i{
+    font-size: 22px;
+    color: var(--main-color);
+}
+
+.row-btn{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.row img:hover{
+    transform: scale(1.1);
 }
