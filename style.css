@@ -523,7 +523,7 @@ span{
 
 @media(max-width: 1060px){
     #menu-icon{
-        display: initial;
+        display: block;
     }
 
     .navlist{
